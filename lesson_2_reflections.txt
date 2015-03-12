@@ -9,3 +9,7 @@ By using the diff --staged command we can see exactly what we are committing int
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 When you want to try out different things to the code, side features, etc. Branching let you keep your main program flow intact while allowing you to try things that may or may not be what you put into the main program.
+
+How do the diagrams help you visualize the branch structure?
+The diagrams demonstrate reachability of the branches by drawing out what each commit has access to(only its parent)
+
