@@ -4,3 +4,5 @@ We create a .git folder with all the meta-data of the repository. By initializin
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Staging area gives you the flexibility to choose which files you want to include for the different commmits.
 
+How can you use the staging area to make sure you have one commit per logical change?
+By using the diff --staged command we can see exactly what we are committing into the repository, and make sure it's only committed per logical change.
