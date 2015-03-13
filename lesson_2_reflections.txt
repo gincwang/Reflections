@@ -13,3 +13,5 @@ When you want to try out different things to the code, side features, etc. Branc
 How do the diagrams help you visualize the branch structure?
 The diagrams demonstrate reachability of the branches by drawing out what each commit has access to(only its parent)
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result of merging takes the subtraction and addition of each version that's mutually exclusive, as well as inclusive and merge them into one single file. By showing it in the diagram we can clearly see how the timeline of the different branches progressed and see exactly what merging will do to the file branches.
