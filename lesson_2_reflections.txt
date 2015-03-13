@@ -15,3 +15,8 @@ The diagrams demonstrate reachability of the branches by drawing out what each c
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 The result of merging takes the subtraction and addition of each version that's mutually exclusive, as well as inclusive and merge them into one single file. By showing it in the diagram we can clearly see how the timeline of the different branches progressed and see exactly what merging will do to the file branches.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+pros: automatic means less hassle for users, convenience of use.
+cons: you might get a type of merging that you didn't intend or expect, causing bugs.
+
